@@ -1,4 +1,4 @@
-import { Skill } from "../../config/skill/skills.type";
+import { Skill } from "@/config/skill/skills.type";
 
 export type CardProjectProps = {
   name: string;

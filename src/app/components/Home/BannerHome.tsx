@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Banner from '../../../public/bannerPortfolio.webp';
+import Banner from '@/public/bannerPortfolio.webp';
 
 function BannerHome() { 
     return (

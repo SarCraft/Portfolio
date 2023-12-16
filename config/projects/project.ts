@@ -9,18 +9,4 @@ export const projects: project[] = [
     description: "Mon portfolio personnel",
     skills: [TailwindCSS, NextJS, TypeScript, Vercel, ReactJS]
   },
-  {
-    name: "Mon deuxième projet",
-    lien: "#",
-    date: "1/12/2023 => Aujourd'hui",
-    description: "C'est mon deuxième projet",
-    skills: [TailwindCSS, NextJS, TypeScript, Vercel]
-  },
-  {
-    name: "Mon deuxième projet",
-    lien: "#",
-    date: "1/12/2023 => Aujourd'hui",
-    description: "C'est mon deuxième projet",
-    skills: [TailwindCSS, NextJS, TypeScript, Vercel]
-  },
 ]
