@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 const CardProject = ({name, lien, date, description, skills}: CardProjectProps) => {
   return (
-    <div className="p-4 bg-opacity-5 bg-gray-600 border border-white rounded-md sm:flex-col">
+    <div className="w-72 p-4 bg-opacity-5 bg-gray-600 border border-white rounded-md sm:flex-col">
       <p className='font-medium text-white'>{name}</p>
       <p className='text-gray-400'>{date}</p>
       <p className='flex flex-row flex-wrap gap-5 text-lg text-gray-400'>{description}</p>

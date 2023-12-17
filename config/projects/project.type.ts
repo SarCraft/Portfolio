@@ -6,4 +6,5 @@ export type project = {
     date: string;
     description: string;
     skills: Skill[];
+    type: string;
 }

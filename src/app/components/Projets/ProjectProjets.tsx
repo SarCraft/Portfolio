@@ -12,7 +12,7 @@ function ProjectProjets() {
             </div>
             <div className="flex flex-row flex-wrap gap-5 text-xl pt-3 justify-center mt-6">
                 {projects.map((project, idx) => (
-                    projects[idx].skills.includes('Fullstack' as unknown as Skill) &&
+                    projects[idx].type.includes('Fullstack') &&
                         <CardProject key={idx} name={project.name} lien={project.lien} date={project.date} description={project.description} skills={project.skills} />
                 ))}
             </div>
