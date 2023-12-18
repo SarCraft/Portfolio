@@ -8,7 +8,7 @@ function ProjectHome() {
         <h1 className="text-3xl font-bold flex mx-auto justify-center w-1/2 text-white mt-16">Projects</h1>
 
         <div className="flex flex-row flex-wrap gap-5 text-xl pt-3 justify-center mt-6">
-            {projects.map((project, idx) => (
+            {projects.slice(0, 3).map((project, idx) => (
               <CardProject key={idx} name={project.name} lien={project.lien} date={project.date} description={project.description} skills={project.skills} />
             ))}
         </div>

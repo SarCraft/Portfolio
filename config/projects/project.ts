@@ -7,7 +7,7 @@ export const projects: project[] = [
     lien: "https://github.com/SarCraft/portfolio",
     date: "1/12/2023 => Aujourd'hui",
     description: "Mon portfolio personnel",
-    skills: [TailwindCSS, NextJS, TypeScript, Vercel, ReactJS],
+    skills: [ReactJS, TypeScript, TailwindCSS, Vercel, NextJS],
     type: "Fullstack"
   },
   {
@@ -17,5 +17,5 @@ export const projects: project[] = [
     description: "Site web pour un serveur Minecraft Bedrock",
     skills: [ReactJS, TypeScript, TailwindCSS, Vercel, NextJS],
     type: "Fullstack"
-  }
+  },
 ]

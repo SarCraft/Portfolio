@@ -10,7 +10,7 @@ function ProjectProjets() {
             <div className="flex flex-wrap justify-start mx-16">
                 <h2 id='SkillHome' className="text-2xl w-1/2 text-gray-600 mt-16">Fullstack</h2><Separator />
             </div>
-            <div className="flex flex-row flex-wrap gap-5 text-xl pt-3 justify-center mt-6">
+            <div className="flex flex-row flex-wrap gap-5 text-xl pt-3 justify-start mt-6 mx-16">
                 {projects.map((project, idx) => (
                     projects[idx].type.includes('Fullstack') &&
                         <CardProject key={idx} name={project.name} lien={project.lien} date={project.date} description={project.description} skills={project.skills} />
