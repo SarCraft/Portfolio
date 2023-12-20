@@ -34,7 +34,7 @@ function AboutHome() {
             </div>
             <div className='mt-8 flex justify-center'>
                 <Button className='bg-transparent text-white' variant='outlineHover'>
-                    <a href="NathanHenauxCV.png" download="NathanHenauxCV.png">Télécharger mon CV</a>
+                    <a href="NathanHenauxCV.png" download="HENAUXNathanCV(2023-2024)">Télécharger mon CV</a>
                 </Button>
             </div>
             <hr className='mt-12 flex mx-auto w-1/4'></hr>
