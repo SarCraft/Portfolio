@@ -1,4 +1,4 @@
-import { techno } from "../Techno/technos.type";
+import { techno } from "../techno/technos.type";
 
 export type personalTechno = {
     name: string;

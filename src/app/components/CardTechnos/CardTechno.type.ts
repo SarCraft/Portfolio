@@ -1,4 +1,4 @@
-import { techno } from '@/config/Techno/technos.type';
+import { techno } from '@/config/techno/technos.type';
 
 export type CardTechnosProps = {
     name: string;

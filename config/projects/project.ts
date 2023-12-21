@@ -1,4 +1,5 @@
-import { NextJS, ReactJS, TailwindCSS,  TypeScript, Vercel } from "../skill/skills";
+import { Figma } from "../techno/technos";
+import { NextJS, ReactJS, TailwindCSS,  TypeScript, Vercel } from "@/config/skill/skills";
 import type { project } from "./project.type";
 
 export const projects: project[] = [

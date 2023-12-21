@@ -1,4 +1,4 @@
-import { AdobeIllustrator, Figma, Unity, VScode } from "../Techno/technos";
+import { AdobeIllustrator, Figma, Unity, VScode } from "../techno/technos";
 import { personalTechno } from "./personalTechno.type";
 
 export const personalTechnos: personalTechno[] = [
