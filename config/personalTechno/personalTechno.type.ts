@@ -1,7 +1,7 @@
-import { techno } from "../techno/technos.type";
+import { Techno } from "../techno/technos.type";
 
 export type personalTechno = {
     name: string;
     date: string;
-    technos: techno[];
+    technos: Techno[];
 }
