@@ -1,10 +1,10 @@
 import React from 'react'
 import type { CardProjectProps } from './CardProject.type'
 import Image from 'next/image'
-import { Button } from '../ui/button'
+import { Button } from '@/components/ui/button'
 import Link from 'next/link'
 
-const CardProject = ({name, lien, date, description, skills}: CardProjectProps) => {
+const CardProject = ({name, lien, date, description, skills, technos}: CardProjectProps) => {
   return (
     <div className="w-72 p-4 bg-opacity-5 bg-gray-600 border border-white rounded-md sm:flex-col">
       <p className='font-medium text-white'>{name}</p>
@@ -16,9 +16,16 @@ const CardProject = ({name, lien, date, description, skills}: CardProjectProps) 
         </Button>
       </div>
       <div className="flex gap-1">
-        {skills.map((skill, idx) => (
+        {skills?.map((skill, idx) => (
           <a key={idx} href={skill.url}>
             <Image src={skill.pathImage} width={30} height={30} className='w-8 h-8 border-2 rounded-full border-gray-800 hover:border-gray-300 ' alt='icon'/>
+          </a>
+        ))}
+      </div>
+      <div className="flex gap-1">
+        {technos?.map((techno, idx) => (
+          <a key={idx} href={techno.url}>
+            <Image src={techno.pathImage} width={30} height={30} className='w-8 h-8 border-2 rounded-full border-gray-800 hover:border-gray-300 ' alt='icon'/>
           </a>
         ))}
       </div>
