@@ -1,4 +1,4 @@
-import { Techno } from "./technos.type";
+import { Techno } from "@/config/techno/technos.type";
 
 export const Figma: Techno = {name: "Figma", pathImage: "/icon/figma.png", url: "https://www.figma.com/"};
 export const VScode: Techno = {name: "VScode", pathImage: "/icon/vscode.png", url: "https://code.visualstudio.com/"};
