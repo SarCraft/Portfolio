@@ -12,10 +12,10 @@ export const projects: project[] = [
     type: "Fullstack"
   },
   {
-    name: "Overy",
-    lien: "#",
+    name: "BetterTierList",
+    lien: "https://github.com/SarCraft/bettertierlist",
     date: "26/12/2023 => Aujourd'hui",
-    description: "Site web pour un serveur Minecraft Bedrock",
+    description: "Site de création et partage de tier list",
     skills: [ReactJS, TypeScript, TailwindCSS, Vercel, NextJS],
     type: "Fullstack"
   },
