@@ -1,4 +1,4 @@
-import { NextJS, ReactJS, TailwindCSS,  TypeScript, Vercel } from "@/config/skill/skills";
+import { NextJS, ReactJS, TailwindCSS,  TypeScript, Vercel, Cpp } from "@/config/skill/skills";
 import type { project } from "./project.type";
 import { Figma } from "@/config/techno/technos";
 
@@ -12,19 +12,19 @@ export const projects: project[] = [
     type: "Fullstack"
   },
   {
-    name: "BetterTierList",
-    lien: "https://github.com/SarCraft/bettertierlist",
-    date: "26/12/2023 => Aujourd'hui",
-    description: "Site de création et partage de tier list",
-    skills: [ReactJS, TypeScript, TailwindCSS, Vercel, NextJS],
-    type: "Fullstack"
-  },
-  {
-    name: ">_myStudentProject",
-    lien: "https://www.figma.com/file/MwS3plXc2Yhf87ZeFtL3uj/Pages?type=design&node-id=2%3A2&mode=design&t=OSG7nxyJfU3gr8Nu-1",
-    date: "1/12/2023 => Aujourd'hui",
+    name: "Nakama Manga",
+    lien: "https://www.figma.com/file/q54MiZMjYLNa7WcXcT2MB2/NakamaManga?type=design&t=D8yJLTZEOHclMoiB-6",
+    date: "30/01/2024 => 11/03/2024",
     description: "Plateforme de gestion et partage de projet étudiant",
     technos: [Figma],
     type: "Design"
+  },
+  {
+    name: "Mystic MCBE",
+    lien: "#",
+    date: "01/02/2024 => Today",
+    description: "Serveur Minecraft Bedrock, MMORPG",
+    skills: [Cpp],
+    type: "other"
   }
 ]
