@@ -1,4 +1,4 @@
-import { Techno } from "../techno/technos.type";
+import { Techno } from "@/config/techno/technos.type";
 
 export type personalTechno = {
     name: string;
