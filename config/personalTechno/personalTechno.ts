@@ -23,4 +23,3 @@ export const personalTechnos: personalTechno[] = [
     technos: [Unity]
   }
 ];
-
