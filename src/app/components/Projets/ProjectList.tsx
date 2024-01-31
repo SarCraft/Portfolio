@@ -2,7 +2,7 @@ import { Separator } from "@/components/ui/separator";
 import { projects } from '@/config/projects/project';
 import { CardProject } from '@/components/CardProject/CardProject';
 
-function ProjectProjets() {
+function ProjectList() {
     return (
         <section>
             <h1 id='SkillHome' className="text-3xl font-bold flex mx-auto justify-center w-1/2 text-white mt-16">Projets</h1>
@@ -37,4 +37,4 @@ function ProjectProjets() {
     );
 }
 
-export { ProjectProjets };
+export { ProjectList };

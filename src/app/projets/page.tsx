@@ -3,7 +3,7 @@ import { FooterHome } from "@/components/Home/FooterHome";
 import { MediaButtonHome } from "@/components/Home/MediaButtonHome";
 import { NavbarHome } from "@/components/Home/NavbarHome";
 import { AvatarHome } from "@/components/Home/AvatarHome";
-import { ProjectProjets } from "@/components/Projets/ProjectProjets";
+import { ProjectList } from "@/components/Projets/ProjectList";
 
 function ProjectPage() {
     return(
@@ -12,7 +12,7 @@ function ProjectPage() {
             <BannerHome />
             <AvatarHome />
             <MediaButtonHome />
-            <ProjectProjets />
+            <ProjectList />
             <FooterHome />
         </>
     )
