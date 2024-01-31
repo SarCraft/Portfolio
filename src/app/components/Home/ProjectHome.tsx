@@ -9,12 +9,12 @@ function ProjectHome() {
 
         <div className="flex flex-row flex-wrap gap-5 text-xl pt-3 justify-center mt-6">
             {projects.slice(0, 3).map((project, idx) => (
-              <CardProject key={idx} name={project.name} lien={project.lien} date={project.date} description={project.description} skills={project.skills} technos={project.technos} />
+              <CardProject key={idx} name={project.name} lien={project.lien} date={project.date} description={project.description} skills={project.skills} technos={project.technos} open={project.open} />
             ))}
         </div>
 
         <div className='mt-8 flex justify-center'>
-          <Button className='bg-transparent text-white' variant='outlineHover'><a>More Project</a></Button>
+          <Button className='bg-transparent text-white' variant='outlineHover'><a href='/projets'>More Project</a></Button>
         </div>
 
         <hr className='mt-12 flex mx-auto w-1/4'></hr>

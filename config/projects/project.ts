@@ -28,6 +28,6 @@ export const projects: project[] = [
     date: "01/02/2024 => Today",
     description: "Serveur Minecraft Bedrock, MMORPG",
     skills: [Cpp],
-    type: "other"
+    type: "Other"
   }
 ]

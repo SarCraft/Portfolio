@@ -1,6 +1,7 @@
 import type { Skill } from "../skill/skills.type";
 import { Techno } from "../techno/technos.type";
 
+
 export type project = {
     name: string;
     lien: string;

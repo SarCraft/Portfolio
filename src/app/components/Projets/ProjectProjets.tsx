@@ -29,7 +29,7 @@ function ProjectProjets() {
             </div>
             <div className="flex flex-row flex-wrap gap-5 text-xl pt-3 justify-start mt-6 mx-16">
                 {projects.map((project, idx) => (
-                    projects[idx].type.includes('other') &&
+                    projects[idx].type.includes('Other') &&
                         <CardProject key={idx} name={project.name} lien={project.lien} open={project.open} date={project.date} description={project.description} skills={project.skills || []} technos={project.technos || []} />
                 ))}
             </div>
