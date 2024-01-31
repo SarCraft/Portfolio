@@ -6,6 +6,7 @@ export const projects: project[] = [
   {
     name: "Portfolio",
     lien: "https://github.com/SarCraft/portfolio",
+    open: true,
     date: "1/12/2023 => Aujourd'hui",
     description: "Mon portfolio personnel",
     skills: [ReactJS, TypeScript, TailwindCSS, Vercel, NextJS],
@@ -14,6 +15,7 @@ export const projects: project[] = [
   {
     name: "Nakama Manga",
     lien: "https://www.figma.com/file/q54MiZMjYLNa7WcXcT2MB2/NakamaManga?type=design&t=D8yJLTZEOHclMoiB-6",
+    open: true,
     date: "30/01/2024 => 11/03/2024",
     description: "Plateforme de gestion et partage de projet étudiant",
     technos: [Figma],
@@ -22,6 +24,7 @@ export const projects: project[] = [
   {
     name: "Mystic MCBE",
     lien: "#",
+    open: false,
     date: "01/02/2024 => Today",
     description: "Serveur Minecraft Bedrock, MMORPG",
     skills: [Cpp],

@@ -12,7 +12,7 @@ function ProjectProjets() {
             <div className="flex flex-row flex-wrap gap-5 text-xl pt-3 justify-start mt-6 mx-16">
                 {projects.map((project, idx) => (
                     projects[idx].type.includes('Fullstack') &&
-                        <CardProject key={idx} name={project.name} lien={project.lien} date={project.date} description={project.description} skills={project.skills || []} technos={project.technos || []} />
+                        <CardProject key={idx} name={project.name} lien={project.lien} open={project.open} date={project.date} description={project.description} skills={project.skills || []} technos={project.technos || []} />
                 ))}
             </div>
             <div className="flex flex-wrap justify-start mx-16">
@@ -21,7 +21,7 @@ function ProjectProjets() {
             <div className="flex flex-row flex-wrap gap-5 text-xl pt-3 justify-start mt-6 mx-16">
                 {projects.map((project, idx) => (
                     projects[idx].type.includes('Design') &&
-                        <CardProject key={idx} name={project.name} lien={project.lien} date={project.date} description={project.description} skills={project.skills || []} technos={project.technos || []} />
+                        <CardProject key={idx} name={project.name} lien={project.lien} open={project.open} date={project.date} description={project.description} skills={project.skills || []} technos={project.technos || []} />
                 ))}
             </div>
             <div className="flex flex-wrap justify-start mx-16">
@@ -30,7 +30,7 @@ function ProjectProjets() {
             <div className="flex flex-row flex-wrap gap-5 text-xl pt-3 justify-start mt-6 mx-16">
                 {projects.map((project, idx) => (
                     projects[idx].type.includes('other') &&
-                        <CardProject key={idx} name={project.name} lien={project.lien} date={project.date} description={project.description} skills={project.skills || []} technos={project.technos || []} />
+                        <CardProject key={idx} name={project.name} lien={project.lien} open={project.open} date={project.date} description={project.description} skills={project.skills || []} technos={project.technos || []} />
                 ))}
             </div>
         </section>
