@@ -16,10 +16,19 @@ export const projects: project[] = [
     name: "Nakama Manga",
     lien: "https://www.figma.com/file/q54MiZMjYLNa7WcXcT2MB2/NakamaManga?type=design&t=D8yJLTZEOHclMoiB-6",
     open: true,
-    date: "30/01/2024 => 11/03/2024",
-    description: "Plateforme de gestion et partage de projet étudiant",
+    date: "01/02/2024 => 06/04/2024",
+    description: "Site librairie de manga",
     technos: [Figma],
     type: "Design"
+  },
+  {
+    name: "Mystic MCBE - Website",
+    lien: "#",
+    open: false,
+    date: "01/02/2024 => Today",
+    description: "Serveur Minecraft Bedrock, MMORPG",
+    skills: [NextJS, ReactJS, TypeScript, TailwindCSS, Vercel],
+    type: "Fulltack"
   },
   {
     name: "Mystic MCBE",
