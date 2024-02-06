@@ -1,5 +1,5 @@
-import { AdobeIllustrator, Figma, Unity, VScode } from "../techno/technos";
-import { personalTechno } from "../personalTechno/personalTechno.type";
+import { AdobeIllustrator, Figma, Unity, VScode } from "@/config/techno/technos";
+import { personalTechno } from "@/config/personalTechno/personalTechno.type";
 
 export const personalTechnos: personalTechno[] = [
   {
