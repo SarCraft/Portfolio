@@ -23,8 +23,8 @@ export const projects: project[] = [
   },
   {
     name: "Nakama Manga",
-    lien: "https://www.figma.com/file/q54MiZMjYLNa7WcXcT2MB2/NakamaManga?type=design&t=D8yJLTZEOHclMoiB-6",
-    open: true,
+    lien: "#",
+    open: false,
     date: "01/02/2024 => 06/04/2024",
     description: "Site commercial pour une librairie de manga",
     technos: [ReactJS, TypeScript, TailwindCSS, Vercel, NextJS],
