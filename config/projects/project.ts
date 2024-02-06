@@ -13,6 +13,15 @@ export const projects: project[] = [
     type: "Fullstack"
   },
   {
+    name: "Mystic MCBE - Website",
+    lien: "#",
+    open: false,
+    date: "01/02/2024 => Today",
+    description: "Site pour un serveur Minecraft Bedrock, MMORPG",
+    skills: [NextJS, ReactJS, TypeScript, TailwindCSS, Vercel],
+    type: "Fulltack"
+  },
+  {
     name: "Nakama Manga",
     lien: "https://www.figma.com/file/q54MiZMjYLNa7WcXcT2MB2/NakamaManga?type=design&t=D8yJLTZEOHclMoiB-6",
     open: true,
@@ -29,15 +38,6 @@ export const projects: project[] = [
     description: "Site commercial pour une librairie de manga",
     technos: [ReactJS, TypeScript, TailwindCSS, Vercel, NextJS],
     type: "Fullstack"
-  },
-  {
-    name: "Mystic MCBE - Website",
-    lien: "#",
-    open: false,
-    date: "01/02/2024 => Today",
-    description: "Site pour un serveur Minecraft Bedrock, MMORPG",
-    skills: [NextJS, ReactJS, TypeScript, TailwindCSS, Vercel],
-    type: "Fulltack"
   },
   {
     name: "ESGI - Modern",
