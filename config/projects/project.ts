@@ -35,7 +35,16 @@ export const projects: project[] = [
     lien: "#",
     open: false,
     date: "01/02/2024 => Today",
-    description: "Sit pour un serveur Minecraft Bedrock, MMORPG",
+    description: "Site pour un serveur Minecraft Bedrock, MMORPG",
+    skills: [NextJS, ReactJS, TypeScript, TailwindCSS, Vercel],
+    type: "Fulltack"
+  },
+  {
+    name: "ESGI - Modern",
+    lien: "#",
+    open: true,
+    date: "06/02/2024 => Today",
+    description: "Site de l'ESGI, école d'informatique, version modernisé",
     skills: [NextJS, ReactJS, TypeScript, TailwindCSS, Vercel],
     type: "Fulltack"
   },
