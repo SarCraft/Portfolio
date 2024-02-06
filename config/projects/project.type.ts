@@ -1,5 +1,5 @@
-import type { Skill } from "../skill/skills.type";
-import { Techno } from "../techno/technos.type";
+import type { Skill } from "@/config/skill/skills.type";
+import { Techno } from "@/config/techno/technos.type";
 
 
 export type project = {
