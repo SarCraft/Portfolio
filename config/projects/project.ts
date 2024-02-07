@@ -31,6 +31,15 @@ export const projects: project[] = [
     type: "Design"
   },
   {
+    name: "ESGI - Modern",
+    lien: "#",
+    open: true,
+    date: "06/02/2024 => Today",
+    description: "Site de l'ESGI, école d'informatique, version modernisé",
+    skills: [ReactJS, TypeScript, TailwindCSS, Vercel, NextJS],
+    type: "Fulltack"
+  },
+  {
     name: "Nakama Manga",
     lien: "#",
     open: false,
@@ -40,15 +49,6 @@ export const projects: project[] = [
     type: "Fullstack"
   },
   {
-    name: "ESGI - Modern",
-    lien: "#",
-    open: true,
-    date: "06/02/2024 => Today",
-    description: "Site de l'ESGI, école d'informatique, version modernisé",
-    skills: [NextJS, ReactJS, TypeScript, TailwindCSS, Vercel],
-    type: "Fulltack"
-  },
-  {
     name: "Mystic MCBE",
     lien: "#",
     open: false,
@@ -56,5 +56,5 @@ export const projects: project[] = [
     description: "Serveur Minecraft Bedrock, MMORPG",
     skills: [Cpp],
     type: "Other"
-  }
+  } 
 ]
