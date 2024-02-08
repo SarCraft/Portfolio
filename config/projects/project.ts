@@ -1,5 +1,5 @@
 import { NextJS, ReactJS, TailwindCSS,  TypeScript, Vercel, Cpp } from "@/config/skill/skills";
-import type { project } from "./project.type";
+import { ProjectType, type project } from "./project.type";
 import { Figma } from "@/config/techno/technos";
 
 export const projects: project[] = [
@@ -10,7 +10,7 @@ export const projects: project[] = [
     date: "1/12/2023 => Aujourd'hui",
     description: "Mon portfolio personnel",
     skills: [ReactJS, TypeScript, TailwindCSS, Vercel, NextJS],
-    type: "Fullstack"
+    type: ProjectType.Fullstack
   },
   {
     name: "Mystic MCBE - Website",
@@ -19,7 +19,7 @@ export const projects: project[] = [
     date: "01/02/2024 => Today",
     description: "Site pour un serveur Minecraft Bedrock, MMORPG",
     skills: [NextJS, ReactJS, TypeScript, TailwindCSS, Vercel],
-    type: "Fullstack"
+    type: ProjectType.Fullstack
   },
   {
     name: "Nakama Manga",
@@ -28,7 +28,7 @@ export const projects: project[] = [
     date: "01/02/2024 => 06/04/2024",
     description: "Maquette web pour un site commercial de manga",
     technos: [Figma],
-    type: "Design"
+    type: ProjectType.Design
   },
   {
     name: "ESGI - Modern",
@@ -37,7 +37,7 @@ export const projects: project[] = [
     date: "06/02/2024 => Today",
     description: "Site de l'ESGI, école d'informatique, version modernisé",
     skills: [ReactJS, TypeScript, TailwindCSS, Vercel, NextJS],
-    type: "Fullstack"
+    type: ProjectType.Fullstack
   },
   {
     name: "Nakama Manga",
@@ -46,7 +46,7 @@ export const projects: project[] = [
     date: "01/02/2024 => 06/04/2024",
     description: "Site commercial pour une librairie de manga",
     technos: [ReactJS, TypeScript, TailwindCSS, Vercel, NextJS],
-    type: "Fullstack"
+    type: ProjectType.Fullstack
   },
   {
     name: "Mystic MCBE",
@@ -55,6 +55,6 @@ export const projects: project[] = [
     date: "01/02/2024 => Today",
     description: "Serveur Minecraft Bedrock, MMORPG",
     skills: [Cpp],
-    type: "Other"
+    type: ProjectType.Other
   } 
 ]

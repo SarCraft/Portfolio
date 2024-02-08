@@ -10,7 +10,7 @@ export type project = {
     description: string;
     skills?: Skill[];
     technos?: Techno[];
-    type: string;
+    type: ProjectType;
 }
 
 export enum ProjectType {
