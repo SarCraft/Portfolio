@@ -5,7 +5,7 @@ import { Figma } from "@/config/techno/technos";
 export const projects: project[] = [
   {
     name: "Portfolio",
-    lien: "https://github.com/SarCraft/portfolio",
+    link: "https://github.com/SarCraft/portfolio",
     open: true,
     date: "1/12/2023 => Aujourd'hui",
     description: "Mon portfolio personnel",
@@ -14,16 +14,16 @@ export const projects: project[] = [
   },
   {
     name: "Mystic MCBE - Website",
-    lien: "#",
+    link: "#",
     open: false,
     date: "01/02/2024 => Today",
     description: "Site pour un serveur Minecraft Bedrock, MMORPG",
     skills: [NextJS, ReactJS, TypeScript, TailwindCSS, Vercel],
-    type: "Fulltack"
+    type: "Fullstack"
   },
   {
     name: "Nakama Manga",
-    lien: "https://www.figma.com/file/q54MiZMjYLNa7WcXcT2MB2/NakamaManga?type=design&t=D8yJLTZEOHclMoiB-6",
+    link: "https://www.figma.com/file/q54MiZMjYLNa7WcXcT2MB2/NakamaManga?type=design&t=D8yJLTZEOHclMoiB-6",
     open: true,
     date: "01/02/2024 => 06/04/2024",
     description: "Maquette web pour un site commercial de manga",
@@ -32,16 +32,16 @@ export const projects: project[] = [
   },
   {
     name: "ESGI - Modern",
-    lien: "#",
+    link: "#",
     open: true,
     date: "06/02/2024 => Today",
     description: "Site de l'ESGI, école d'informatique, version modernisé",
     skills: [ReactJS, TypeScript, TailwindCSS, Vercel, NextJS],
-    type: "Fulltack"
+    type: "Fullstack"
   },
   {
     name: "Nakama Manga",
-    lien: "#",
+    link: "#",
     open: false,
     date: "01/02/2024 => 06/04/2024",
     description: "Site commercial pour une librairie de manga",
@@ -50,7 +50,7 @@ export const projects: project[] = [
   },
   {
     name: "Mystic MCBE",
-    lien: "#",
+    link: "#",
     open: false,
     date: "01/02/2024 => Today",
     description: "Serveur Minecraft Bedrock, MMORPG",

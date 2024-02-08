@@ -4,11 +4,17 @@ import { Techno } from "../techno/technos.type";
 
 export type project = {
     name: string;
-    lien: string;
+    link: string;
     open: boolean;
     date: string;
     description: string;
     skills?: Skill[];
     technos?: Techno[];
     type: string;
+}
+
+export enum ProjectType {
+    Fullstack = 'Fullstack',
+    Design = 'Design',
+    Other = 'Other'
 }

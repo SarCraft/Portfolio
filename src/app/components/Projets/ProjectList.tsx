@@ -1,6 +1,7 @@
 import { Separator } from "@/components/ui/separator";
 import { projects } from '@/config/projects/project';
 import { CardProject } from '@/components/CardProject/CardProject';
+import { ProjectType } from '@/config/projects/project.type';
 
 function ProjectList() {
     return (
@@ -10,24 +11,51 @@ function ProjectList() {
                 <h2 className="text-2xl w-1/2 text-gray-600 mt-16">Fullstack</h2><Separator />
             </div>
             <div className="flex flex-row flex-wrap gap-5 text-xl pt-3 justify-start mt-6 mx-16">
-                {projects.filter(project => project.type === 'Fullstack').map((project, idx) => (
-                    <CardProject key={idx} name={project.name} lien={project.lien} open={project.open} date={project.date} description={project.description} skills={project.skills || []} technos={project.technos || []} />
+                {projects.filter(project => project.type === ProjectType.Fullstack).map(project => (
+                <CardProject 
+                    key={`${project.name} ${project.date}`} 
+                    name={project.name} 
+                    link={project.link}
+                    open={project.open}
+                    date={project.date}
+                    description={project.description} 
+                    skills={project.skills || []} 
+                    technos={project.technos || []} 
+                />
                 ))}
             </div>
             <div className="flex flex-wrap justify-start mx-16">
                 <h2 className="text-2xl w-1/2 text-gray-600 mt-16">UI/UX Design</h2><Separator />
             </div>
             <div className="flex flex-row flex-wrap gap-5 text-xl pt-3 justify-start mt-6 mx-16">
-                {projects.filter(project => project.type ==='Design').map((project, idx) => (
-                        <CardProject key={idx} name={project.name} lien={project.lien} open={project.open} date={project.date} description={project.description} skills={project.skills || []} technos={project.technos || []} />
+                {projects.filter(project => project.type === ProjectType.Design).map(project => (
+                <CardProject 
+                    key={`${project.name} ${project.date}`} 
+                    name={project.name} 
+                    link={project.link}
+                    open={project.open}
+                    date={project.date}
+                    description={project.description} 
+                    skills={project.skills || []} 
+                    technos={project.technos || []} 
+                />
                 ))}
             </div>
             <div className="flex flex-wrap justify-start mx-16">
                 <h2 className="text-2xl w-1/2 text-gray-600 mt-16">Other</h2><Separator />
             </div>
             <div className="flex flex-row flex-wrap gap-5 text-xl pt-3 justify-start mt-6 mx-16">
-                {projects.filter(project => project.type === 'Other').map((project, idx) => (
-                        <CardProject key={idx} name={project.name} lien={project.lien} open={project.open} date={project.date} description={project.description} skills={project.skills || []} technos={project.technos || []} />
+                {projects.filter(project => project.type === ProjectType.Other).map(project => (
+                <CardProject 
+                    key={`${project.name} ${project.date}`} 
+                    name={project.name} 
+                    link={project.link}
+                    open={project.open}
+                    date={project.date}
+                    description={project.description} 
+                    skills={project.skills || []} 
+                    technos={project.technos || []} 
+                />
                 ))}
             </div>
         </section>
