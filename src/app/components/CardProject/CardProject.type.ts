@@ -3,7 +3,7 @@ import { Techno } from "@/config/techno/technos.type";
 
 export type CardProjectProps = {
   name: string;
-  link: string;
+  lien: string;
   open: boolean;
   date: string;
   description: string;
