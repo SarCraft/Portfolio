@@ -9,7 +9,7 @@ function ProjectHome() {
 
         <div className="flex flex-row flex-wrap gap-5 text-xl pt-3 justify-center mt-6">
             {projects.slice(0, 3).map((project, idx) => (
-              <CardProject key={idx} name={project.name} lien={project.lien} date={project.date} description={project.description} skills={project.skills} technos={project.technos} open={project.open} />
+              <CardProject key={idx} name={project.name} link={project.link} date={project.date} description={project.description} skills={project.skills} technos={project.technos} open={project.open} />
             ))}
         </div>
 
