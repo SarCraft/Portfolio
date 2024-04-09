@@ -8,6 +8,8 @@ import { AboutHome } from '@/components/Home/AboutHome';
 import { ContactHome } from '@/components/Home/ContactHome';
 import { FooterHome } from '@/components/Home/FooterHome';
 
+import React from 'react';
+
 function Page() {
   return (
     <>
