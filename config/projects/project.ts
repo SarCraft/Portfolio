@@ -1,4 +1,4 @@
-import { NextJS, ReactJS, TailwindCSS,  TypeScript, Vercel, Cpp } from "@/config/skill/skills";
+import { NextJS, ReactJS, TailwindCSS,  TypeScript, Vercel } from "@/config/skill/skills";
 import { ProjectType, type project } from "./project.type";
 import { Figma } from "@/config/techno/technos";
 
@@ -47,14 +47,5 @@ export const projects: project[] = [
     description: "Site commercial pour une librairie de manga",
     technos: [ReactJS, TypeScript, TailwindCSS, Vercel, NextJS],
     type: ProjectType.Fullstack
-  },
-  {
-    name: "Mystic MCBE",
-    link: "#",
-    open: false,
-    date: "01/02/2024 => Today",
-    description: "Serveur Minecraft Bedrock, MMORPG",
-    skills: [Cpp],
-    type: ProjectType.Other
-  } 
+  }
 ]
