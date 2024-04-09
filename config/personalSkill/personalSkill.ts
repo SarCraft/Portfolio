@@ -1,4 +1,4 @@
-import { Cpp, NextJS, ReactJS, Rust, TailwindCSS,  TypeScript } from "../skill/skills";
+import { NextJS, ReactJS, Rust, TailwindCSS,  TypeScript } from "../skill/skills";
 import { personalSkill } from "./personalSkill.type";
 
 export const personalSkills: personalSkill[] = [
@@ -26,10 +26,5 @@ export const personalSkills: personalSkill[] = [
     name: "Rust",
     date: "01/06/2023 => 01/07/2023",
     skills: [Rust]
-  },
-  {
-    name: "C++",
-    date: "01/02/2024 => Today",
-    skills: [Cpp]
   }
 ];

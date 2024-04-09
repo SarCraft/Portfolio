@@ -1,4 +1,4 @@
-import { AdobeIllustrator, Figma, Unity, VScode } from "@/config/techno/technos";
+import { AdobeIllustrator, Figma, VScode } from "@/config/techno/technos";
 import { personalTechno } from "@/config/personalTechno/personalTechno.type";
 
 export const personalTechnos: personalTechno[] = [
@@ -16,10 +16,5 @@ export const personalTechnos: personalTechno[] = [
     name: "VScode",
     date: "01/12/2023 => Today",
     technos: [VScode]
-  },
-  {
-    name: "Unity",
-    date: "01/12/2023 => Today",
-    technos: [Unity]
   }
 ];
