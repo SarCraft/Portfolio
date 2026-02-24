@@ -1,0 +1,126 @@
+/* Main hobby cards */
+.hobby__main-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.hobby__main-card {
+  position: relative;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  cursor: pointer;
+  aspect-ratio: 3/4;
+  border: 1px solid var(--border-color);
+}
+
+.hobby__main-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.8s cubic-bezier(0.25, 0.1, 0, 1);
+}
+
+.hobby__main-card:hover .hobby__main-img {
+  transform: scale(1.08);
+}
+
+.hobby__main-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+}
+
+.hobby__main-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+/* Secondary hobby cards */
+.hobby__secondary-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 64px;
+}
+
+.hobby__secondary-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px 18px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.hobby__secondary-card:hover {
+  border-color: var(--border-hover);
+  background: var(--bg-card-hover);
+}
+
+.hobby__secondary-icon {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border-color);
+  color: var(--text-secondary);
+  flex-shrink: 0;
+}
+
+.hobby__secondary-title {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 2px;
+}
+
+.hobby__secondary-desc {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  line-height: 1.4;
+}
+
+/* Quote */
+.hobby__quote {
+  padding: 32px 0;
+  border-top: 1px solid var(--border-color);
+}
+
+.hobby__quote p {
+  font-size: 1.1rem;
+  font-weight: 300;
+  color: var(--text-secondary);
+  font-style: italic;
+  margin-bottom: 8px;
+}
+
+.hobby__quote cite {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  font-style: normal;
+}
+
+@media (max-width: 640px) {
+  .hobby__main-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .hobby__main-card:last-child {
+    grid-column: span 2;
+    aspect-ratio: 16/9;
+  }
+  .hobby__secondary-grid {
+    grid-template-columns: 1fr;
+  }
+}
