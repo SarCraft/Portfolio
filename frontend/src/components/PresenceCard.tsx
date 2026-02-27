@@ -201,8 +201,12 @@ export default function PresenceCard({ visible }: { visible: boolean }) {
               {/* Empty */}
               {!discord && !spotify && (
                 <div className="flex items-center justify-center py-4">
-                  <span className="text-[0.75rem] text-text-muted">Aucune activité</span>
+                  <span className="text-[0.75rem] text-text-muted">Impossible de récupérer la présence</span>
                 </div>
+              )}
+
+              {discord && !discord.activity && !spotify && (
+                <div />
               )}
             </>
           )}
